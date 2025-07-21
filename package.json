@@ -1,0 +1,15 @@
+{
+  "name": "ai-browser-agent",
+  "version": "1.0.0",
+  "description": "An AI agent that controls a browser.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.19.2",
+    "puppeteer": "^22.12.1",
+    "puppeteer-stream": "^3.0.20"
+  }
+}
